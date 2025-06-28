@@ -16,7 +16,6 @@ Correo: jugongorar@unal.edu.co
 Correo: gesuarezb@unal.edu.co
 ## 1. Cuadro Comparativo entre Motoman MH6 y IRB140
 
-
 ## 2. Descripción de las diferencias entre Home 1 y Home 2 del robot Motoman MH6
 
 El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente utilizadas en programación y operación: `Home 1` y `Home 2`. Estas posiciones cumplen funciones distintas dentro del entorno de trabajo del robot. A continuación se describen sus principales diferencias:
@@ -26,8 +25,8 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 - Es la **posición de origen predeterminada de fábrica**.
 - Se utiliza como referencia para **calibración, mantenimiento y verificación de ejes**.
 - **No puede ser modificada** por el usuario.
-- En esta posición, **todos los ejes del robot (J1 a J6) están en 0 grados**, es decir, las configuraciones articulares están en cero.
-- Representa una postura estándar y segura del robot, con el brazo extendido hacia el frente o completamente retraído.
+- En esta posición, los ejes del robot se ubican en una **configuración estándar definida por el fabricante**, que **no necesariamente corresponde a 0° en todos los ejes articulares**.
+- Representa una postura segura y conocida del robot, con el brazo extendido o retraído, dependiendo del modelo.
 - Es ideal como punto de partida o retorno en procedimientos técnicos y de diagnóstico.
 
 ### 2.2 Home 2
@@ -36,20 +35,18 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 - Se utiliza comúnmente como **posición inicial, final o de espera** durante ciclos automáticos.
 - Puede ser modificada libremente desde el controlador del robot.
 - Permite mayor flexibilidad en entornos industriales y puede adaptarse al diseño de la celda de trabajo.
-- Se accede mediante programación
+- Se accede mediante programación, por ejemplo:
 
-  
 ### 2.3 Resumen comparativo
 
-| Característica              | Home 1                               | Home 2                                |
-|-----------------------------|---------------------------------------|----------------------------------------|
-| Definición                  | Posición de fábrica                   | Posición definida por el usuario       |
-| Configuración               | Fija, no editable                     | Editable y personalizable              |
-| Valores articulares         | Todos las articulaciones en 0         | Definidos por el usuario               |
-| Propósito principal         | Calibración y diagnóstico             | Operación y producción                 |
-| Acceso                      | Sistema predeterminado                | Mediante programación                  |
+| Característica              | Home 1                                        | Home 2                                |
+|-----------------------------|-----------------------------------------------|----------------------------------------|
+| Definición                  | Posición de fábrica                           | Posición definida por el usuario       |
+| Configuración               | Fija, no editable                             | Editable y personalizable              |
+| Valores articulares         | Configuración estándar (no necesariamente 0°) | Definidos por el usuario               |
+| Propósito principal         | Calibración y diagnóstico                     | Operación y producción                 |
+| Acceso                      | Sistema predeterminado                        | Mediante programación (`MOVJ HOME2`)   |
 
-  
 ## 3. Procedimiento para realizar el movimiento manual del manipulador Motoman
 
 A continuación, se describe el procedimiento y las teclas necesarias para controlar manualmente el manipulador **Motoman MH6** desde el **pendant de programación (teach pendant)**, tanto en modo articular como en modo cartesiano.
