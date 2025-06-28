@@ -17,7 +17,7 @@ Correo: gesuarezb@unal.edu.co
 ## 1. Cuadro Comparativo entre Motoman MH6 y IRB140
 
 
-## ## 2. Descripción de las diferencias entre Home 1 y Home 2 del robot Motoman MH6
+## 2. Descripción de las diferencias entre Home 1 y Home 2 del robot Motoman MH6
 
 El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente utilizadas en programación y operación: `Home 1` y `Home 2`. Estas posiciones cumplen funciones distintas dentro del entorno de trabajo del robot. A continuación se describen sus principales diferencias:
 
