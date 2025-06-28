@@ -36,5 +36,18 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 - Se utiliza comúnmente como **posición inicial, final o de espera** durante ciclos automáticos.
 - Puede ser modificada libremente desde el controlador del robot.
 - Permite mayor flexibilidad en entornos industriales y puede adaptarse al diseño de la celda de trabajo.
-- Se accede mediante programación, por ejemplo con la instrucción:  
+- Se accede mediante programación
+
+  
+### 2.3 Resumen comparativo
+
+| Característica              | Home 1                               | Home 2                                |
+|-----------------------------|---------------------------------------|----------------------------------------|
+| Definición                  | Posición de fábrica                   | Posición definida por el usuario       |
+| Configuración               | Fija, no editable                     | Editable y personalizable              |
+| Valores articulares         | Todos las articulaciones en 0°        | Definidos por el usuario               |
+| Propósito principal         | Calibración y diagnóstico             | Operación y producción                 |
+| Acceso                      | Sistema predeterminado                | Mediante programación (`MOVJ HOME2`)   |
+
+  
 
