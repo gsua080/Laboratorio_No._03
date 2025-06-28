@@ -222,5 +222,71 @@ El flujo de trabajo típico de RoboDK para mover un manipulador industrial inclu
 4. **Ejecución**: El robot ejecuta el programa en el entorno físico, replicando los movimientos simulados.
 
 RoboDK no actúa como un controlador de bajo nivel. Su función principal es la de una herramienta de simulación, planificación y generación de código para facilitar la programación offline de robots industriales.
+## 6. Análisis comparativo entre RoboDK y RobotStudio
+
+### 6.1 Diferencias clave
+
+Las herramientas **RoboDK** y **RobotStudio** son ampliamente utilizadas para la simulación y programación offline de robots industriales, aunque presentan diferencias importantes en su enfoque, compatibilidad y lenguaje.
+
+| Característica              | RoboDK                                      | RobotStudio                                   |
+|----------------------------|----------------------------------------------|-----------------------------------------------|
+| Fabricante                 | Independiente                               | ABB Robotics                                  |
+| Compatibilidad             | Multimarca (ABB, KUKA, FANUC, Yaskawa, UR…) | Exclusivo para robots ABB                     |
+| Lenguaje                   | Python, exporta a múltiples formatos         | RAPID (lenguaje propietario de ABB)           |
+| Curva de aprendizaje       | Accesible para principiantes                 | Técnica, enfocada a usuarios ABB              |
+| CAD/CAM                    | Integración con Fusion 360, SolidWorks, etc. | Integración nativa con herramientas ABB       |
+| Licenciamiento             | Versión gratuita limitada; versión de pago   | Simulación gratuita completa para ABB         |
+
+---
+
+### 6.2 Comparación práctica de funciones
+
+A continuación se presentan diferencias prácticas clave en cuanto a tareas comunes como la creación de trayectorias, definición de objetivos, y configuración del entorno de trabajo:
+
+| Funcionalidad                          | RoboDK                                                  | RobotStudio (ABB)                                       |
+|---------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
+| Creación de trayectorias              | Interfaz gráfica sencilla con listas de movimiento       | Paths estructurados y WorkObjects                       |
+| Definición de targets (objetivos)     | GUI interactiva o scripts en Python                      | Definición precisa en el entorno 3D ABB                  |
+| Configuración de herramientas (Tool)  | GUI o scripts Python para definir TCP                    | Definición y validación técnica en el entorno ABB        |
+| Configuración de frames (base)        | Asignación sencilla mediante referencia cartesiana       | Alineación con estaciones virtuales reales ABB           |
+| Creación de movimientos               | `MoveJ`, `MoveL`, `MoveC`, programables en Python        | `MoveAbsJ`, `MoveL`, `MoveC` programables en RAPID       |
+| Interfaz gráfica                      | Intuitiva, compatible con múltiples marcas               | Más compleja y técnica, adaptada a ABB                   |
+| Simulación realista                   | Precisa, pero con menor fidelidad física que ABB         | Integración con Virtual Controller de ABB               |
+| Exportación de código                 | Multilenguaje: Yaskawa `.JBI`, KUKA `.src`, ABB `.mod`   | Solo RAPID                                               |
+| Usuarios objetivos                    | Estudiantes, integradores, programadores                 | Ingenieros ABB, personal técnico especializado           |
+
+---
+
+### 6.3 Usos específicos
+
+#### RoboDK
+
+- Simulación de trayectorias con múltiples marcas de robots
+- Generación y exportación de código en diferentes lenguajes
+- Formación en robótica industrial sin necesidad de hardware
+- Integración con entornos CAD/CAM (SolidWorks, Inventor, Fusion 360)
+- Programación offline sin detener la producción
+- Validación de colisiones y ciclos de trabajo
+
+#### RobotStudio
+
+- Simulación precisa con controladores virtuales ABB
+- Desarrollo y depuración de programas en RAPID
+- Validación y sincronización con hardware real ABB
+- Configuración detallada de celdas y periferia ABB
+- Entrenamiento avanzado en la plataforma ABB
+- Comprobación de errores y ajustes de parámetros del sistema
+
+---
+
+### 6.4 Reflexión personal
+
+Estas herramientas representan dos aproximaciones distintas a la programación y simulación en robótica industrial:
+
+- **RoboDK** simboliza la **versatilidad** y la **accesibilidad**. Su enfoque multimarca y compatibilidad con Python lo hacen ideal para usuarios que buscan explorar distintos entornos robóticos, realizar simulaciones educativas o validar proyectos de automatización de forma rápida.
+
+- **RobotStudio** representa la **precisión técnica** y la **especialización**. Está orientado a usuarios que ya trabajan en entornos ABB o buscan replicar exactamente los procesos industriales de esa plataforma con fidelidad total al hardware.
+
+Ambas herramientas son fundamentales y complementarias. La elección entre una y otra depende del fabricante del robot, el tipo de aplicación, el entorno académico o industrial, y el nivel de profundidad requerido en la programación.
 
 
