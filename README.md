@@ -73,11 +73,9 @@ El robot Motoman MH6 dispone de dos posiciones de referencia comúnmente utiliza
   <img src="https://github.com/user-attachments/assets/65f7a10c-e22b-4dd8-83ad-3340dd79f1ff" alt="Home 2 - Imagen 1" height="250"/>
   <img src="https://github.com/user-attachments/assets/72280dc0-ad2c-4c02-b569-d3f1f37af88a" alt="Home 2 - Imagen 2" height="250"/>
 </p>
+Aunque Home 1 es la posición predeterminada del fabricante y resulta clave para tareas como calibración, diagnóstico y mantenimiento, en la práctica suele ser más útil trabajar con Home 2, especialmente en entornos industriales o simulaciones. Al poder configurarse según las necesidades del usuario, Home 2 se adapta mejor al espacio de trabajo, ayuda a evitar colisiones y permite optimizar los tiempos del ciclo operativo. Además, su flexibilidad la convierte en una excelente opción como punto de partida o de retorno en programas automáticos.
 
 
-A pesar de que Home 1 es la posición de referencia establecida por el fabricante y resulta esencial para tareas de calibración, diagnóstico y mantenimiento,para operaciones industriales o simulaciones, Home 2 suele ser más conveniente.
-
-Esto debido a que Home 2 es configurable por el usuario, permitiendo adaptarla al entorno de trabajo, evitar colisiones y optimizar el tiempo de ciclo. Además, su flexibilidad permite que se use como punto de partida o retorno seguro en los programas automáticos.
 
 
 ## 3. Procedimiento para realizar el movimiento manual del manipulador Motoman
