@@ -46,10 +46,10 @@ El robot Motoman MH6 dispone de dos posiciones de referencia comúnmente utiliza
 
 ### Home 1
 
-- Es la **posición de origen predeterminada de fábrica**.
-- Se utiliza como referencia para **calibración, mantenimiento y verificación de ejes**.
-- **No puede ser modificada** por el usuario.
-- En esta posición, los ejes del robot se ubican en una **configuración estándar definida por el fabricante**, que **no necesariamente corresponde a 0° en todos los ejes articulare como lo evidenciamos en la imagen aunque se sue asumir valores ceracnos a 0**.
+- Es la posición de origen predeterminada de fábrica.
+- Se utiliza como referencia para calibración, mantenimiento y verificación de ejes.
+- No puede ser modificada por el usuario.
+- En esta posición, los ejes del robot se ubican en una configuración estándar definida por el fabricante, que no necesariamente corresponde a 0° en todos los ejes articulare como lo evidenciamos en la imagen aunque se sue asumir valores ceracnos a 0.
 - Representa una postura segura y conocida del robot, con el brazo extendido o retraído, dependiendo del modelo.
 - Es ideal como punto de partida o retorno en procedimientos técnicos y de diagnóstico.
 
@@ -62,8 +62,8 @@ El robot Motoman MH6 dispone de dos posiciones de referencia comúnmente utiliza
 
 ### Home 2
 
-- Es una **posición configurada por el usuario**, adaptada a las necesidades específicas de la aplicación.
-- Se utiliza comúnmente como **posición inicial, final o de espera** durante ciclos automáticos.
+- Es una posición configurada por el usuario, adaptada a las necesidades específicas de la aplicación.
+- Se utiliza comúnmente como posición inicial, final o de espera durante ciclos automáticos.
 - Puede ser modificada libremente desde el controlador del robot.
 - Permite mayor flexibilidad en entornos industriales y puede adaptarse al diseño de la celda de trabajo.
 - Se accede mediante programación, por ejemplo:
@@ -73,19 +73,9 @@ El robot Motoman MH6 dispone de dos posiciones de referencia comúnmente utiliza
   <img src="https://github.com/user-attachments/assets/65f7a10c-e22b-4dd8-83ad-3340dd79f1ff" alt="Home 2 - Imagen 1" height="250"/>
   <img src="https://github.com/user-attachments/assets/72280dc0-ad2c-4c02-b569-d3f1f37af88a" alt="Home 2 - Imagen 2" height="250"/>
 </p>
-### 2.3 Resumen comparativo
 
-<div align="center">
 
-| Característica              | Home 1                                        | Home 2                                |
-|-----------------------------|-----------------------------------------------|----------------------------------------|
-| Definición                  | Posición de fábrica                           | Posición definida por el usuario       |
-| Configuración               | Fija, no editable                             | Editable y personalizable              |
-| Valores articulares         | Configuración estándar                        | Definidos por el usuario               |
-| Propósito principal         | Calibración y diagnóstico                     | Operación y producción                 |
-| Acceso                      | Sistema predeterminado                        | Mediante programación (`MOVJ HOME2`)   |
 
-</div>
 
 ## 3. Procedimiento para realizar el movimiento manual del manipulador Motoman
 
