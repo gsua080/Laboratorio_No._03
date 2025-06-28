@@ -15,7 +15,24 @@ Correo: jugongorar@unal.edu.co
 
 Correo: gesuarezb@unal.edu.co
 ## 1. Cuadro Comparativo entre Motoman MH6 y IRB140
-
+| Item | Motoman MH6| IRB140 |
+| :---         |     :---:      |          ---: |
+| Carga Máxima    | 6 kg     | 5 kg    |
+| Número de grados de liberad  | 6       | 6      |
+| Velocidad    |      |     |
+| Eje 1   | 140 °/s     | 200°/s    |
+| Eje 2    | 130 °/s     | 200 °/s    |
+| Eje 3    | 135 °/s     | 260 °/s    |
+| Eje 4    | 270 °/s     | 360 °/s    |
+| Eje 5    | 270 °/s    | 360 °/s    |
+| Eje 6    | 400 °/s     | 450 °/s    |
+| Aplicaciones típicas    |     |     |
+| 1   | Manipulación de materiales     | Manipulación de alta precisión    |
+| 2   | Empaque y paletizado     | Pruebas de calidad o inspección con cámaras|    
+| 3   |   Ensamblaje de componentes medianos o livianos  | Atención de máquinas para piezas pequeñas    |
+| 4   | Soldadura por arco     | Montaje electrónico o mecánico    |
+| 5   | Pulido y desbarbado con herramientas abrasivas     |  Pulido o acabado superficial de piezas pequeñas   |
+| 6   | Aplicación de adhesivos o selladores     |  Aplicación de pintura o recubrimientos en espacios reducidos   |
 ## 2. Descripción de las diferencias entre Home 1 y Home 2 del robot Motoman MH6
 
 El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente utilizadas en programación y operación: `Home 1` y `Home 2`. Estas posiciones cumplen funciones distintas dentro del entorno de trabajo del robot. A continuación se describen sus principales diferencias:
