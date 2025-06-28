@@ -42,9 +42,9 @@ Correo: gesuarezb@unal.edu.co
 
 ## 2. Descripción de las diferencias entre Home 1 y Home 2 del robot Motoman MH6
 
-El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente utilizadas en programación y operación: `Home 1` y `Home 2`. Estas posiciones cumplen funciones distintas dentro del entorno de trabajo del robot. A continuación se describen sus principales diferencias:
+El robot Motoman MH6 dispone de dos posiciones de referencia comúnmente utilizadas en programación y operación: Home 1 y Home 2. Estas posiciones cumplen funciones distintas dentro del entorno de trabajo del robot. A continuación se describen sus principales diferencias:
 
-### 2.1 Home 1
+### Home 1
 
 - Es la **posición de origen predeterminada de fábrica**.
 - Se utiliza como referencia para **calibración, mantenimiento y verificación de ejes**.
@@ -60,7 +60,7 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 </p>
 
 
-### 2.2 Home 2
+### Home 2
 
 - Es una **posición configurada por el usuario**, adaptada a las necesidades específicas de la aplicación.
 - Se utiliza comúnmente como **posición inicial, final o de espera** durante ciclos automáticos.
