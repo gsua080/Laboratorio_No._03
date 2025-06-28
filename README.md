@@ -232,10 +232,10 @@ Las herramientas **RoboDK** y **RobotStudio** son ampliamente utilizadas para la
 |----------------------------|----------------------------------------------|-----------------------------------------------|
 | Fabricante                 | Independiente                               | ABB Robotics                                  |
 | Compatibilidad             | Multimarca (ABB, KUKA, FANUC, Yaskawa, UR…) | Exclusivo para robots ABB                     |
-| Lenguaje                   | Python, exporta a múltiples formatos         | RAPID (lenguaje propietario de ABB)           |
+| Lenguaje                   | Python, exporta a múltiples formatos         | RAPID (lenguaje  de ABB)           |
 | Curva de aprendizaje       | Accesible para principiantes                 | Técnica, enfocada a usuarios ABB              |
 | CAD/CAM                    | Integración con Fusion 360, SolidWorks, etc. | Integración herramientas ABB y con Fusion 360, SolidWorks, etc.   |
-| Licenciamiento             | Versión gratuita limitada; versión de pago   | Simulación gratuita completa para ABB         |
+| Licenciamiento             | Versión gratuita limitada; versión de pago   | Licensia paga         |
 
 ---
 
@@ -253,7 +253,6 @@ A continuación se presentan diferencias prácticas clave en cuanto a tareas com
 | Interfaz gráfica                      | Intuitiva, compatible con múltiples marcas               | Más compleja y técnica, adaptada a ABB                   |
 | Simulación realista                   | Precisa, pero con menor fidelidad física que ABB         | Integración con Virtual Controller de ABB               |
 | Exportación de código                 | Multilenguaje: Yaskawa `.JBI`, KUKA `.src`, ABB `.mod`   | Solo RAPID                                               |
-| Usuarios objetivos                    | Estudiantes, integradores, programadores                 | Ingenieros ABB, personal técnico especializado           |
 
 ---
 
