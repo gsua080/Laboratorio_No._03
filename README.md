@@ -96,4 +96,3 @@ A continuación, se describe el procedimiento y las teclas necesarias para contr
 >  La rotación mueve la herramienta del robot (TCP) alrededor del origen de coordenadas definido.
 
 
-
