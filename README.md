@@ -160,11 +160,11 @@ RoboDK puede comunicarse con el robot de dos formas principales, dependiendo de 
 1. Exportación de programas 
 RoboDK genera archivos de programa con extensión .JBI, escritos en lenguaje INFORM, que es nativo de Yaskawa/Motoman., estos archivos pueden transferirse al controlador mediante:
 
--Unidad USB
+- Unidad USB
 
--Tarjeta Compact Flash
+- Tarjeta Compact Flash
 
--Conexión FTP (si está habilitada)
+- Conexión FTP (si está habilitada)
 
 El operador ejecuta el archivo desde el teach pendant, como cualquier otro programa.
 
@@ -173,11 +173,11 @@ El operador ejecuta el archivo desde el teach pendant, como cualquier otro progr
 2. Comunicación en línea (Online Programming)
 Si el controlador del robot está habilitado para comunicación externa (con MotoCOM SDK o Ethernet/IP), RoboDK puede establecer una conexión en tiempo real con el manipulador. permitiendo:
 
--Enviar comandos o trayectorias directamente desde el PC.
+- Enviar comandos o trayectorias directamente desde el PC.
 
--Realizar pruebas o ajustes sin necesidad de cargar programas manualmente.
+- Realizar pruebas o ajustes sin necesidad de cargar programas manualmente.
 
--Sincronizar acciones con otros dispositivos, sensores o sistemas industriales.
+- Sincronizar acciones con otros dispositivos, sensores o sistemas industriales.
 
 
 ## 6. Análisis comparativo entre RoboDK y RobotStudio
