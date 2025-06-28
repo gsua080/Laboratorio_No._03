@@ -121,10 +121,10 @@ Aunque Home 1 es la posición predeterminada del fabricante y resulta clave para
 #### Niveles de velocidad
 
 - El sistema ofrece generalmente 4 niveles de velocidad preestablecidos para el modo manual:
-  - Muy lenta 
-  - Lenta
-  - Media
-  - Rápida (permitida en modo manual)
+  - Muy lenta (Very slow)
+  - Lenta (Slow)
+  - Media (Medium)
+  - Rápida (Fast)
 
 La velocidad en modo Teach está limitada por razones de seguridad.
 
@@ -134,6 +134,8 @@ La velocidad en modo Teach está limitada por razones de seguridad.
   1. Presionar el botón físico o función de pantalla Speed o STEP.
   2. Usar las teclas de flecha o selección en pantalla para incrementar (+) o decrementar (-) el nivel.
   3. Confirmar con ENTER si es necesario.
+#### Identificación del nivel en la interfaz
+El nivel de velocidad seleccionado se muestra en la pantalla del teach pendant, generalmente en una zona visible de la interfaz principal. Puede aparecer como un ícono, un número o una palabra clave (SLOW, MEDIUM, etc.).
 
 
 
@@ -153,49 +155,42 @@ RoboDK se comunica con el robot Motoman mediante **exportación de código** o *
    - Permite que RoboDK envíe comandos en tiempo real al robot.
 
 ---
+## 5. Principales funcionalidades y comunicación de RoboDK con el manipulador Motoman
 
-### 4.4 ¿Qué hace RoboDK para mover el manipulador?
+### Principales funcionalidades
+- Simulación 3D precisa de manipuladores, herramientas y herramientas de trabajo.
+- Compatibilidad con múltiples marcas y modelos de robots industriales
+- Programación offline, reduciendo los tiempos de parada del robot real.
+- Diseño y edición de trayectorias personalizadas, optimizadas para tareas específicas como soldadura, ensamblaje o paletizado.
+- Generación automática de código en el lenguaje nativo del robot 
 
-Cuando se utiliza RoboDK para mover un robot Motoman, el software realiza las siguientes acciones:
 
-1. **Genera el plan de trayectoria** en el entorno de simulación.
-2. **Convierte la trayectoria en instrucciones de movimiento** específicas para el lenguaje del controlador Motoman (por ejemplo, `MOVJ`, `MOVL`, `MOVC` en formato `.JBI`).
-3. **Transfiere el programa** al robot mediante un medio de comunicación compatible.
-4. El robot **ejecuta el programa cargado**, realizando los movimientos planificados en el entorno real.
-## 5. Comunicación de RoboDK con el manipulador Motoman
+### Comunicación entre el manipulador Motoman MH6 y RoboDK
+RoboDK puede comunicarse con el robot de dos formas principales, dependiendo de la infraestructura del controlador:
 
-La comunicación entre **RoboDK** y el robot **Motoman MH6** puede establecerse mediante distintos métodos, dependiendo del tipo de controlador disponible y las capacidades habilitadas. A continuación, se describen las principales formas de conexión.
+1. Exportación de programas 
+RoboDK genera archivos de programa con extensión .JBI, escritos en lenguaje INFORM, que es nativo de Yaskawa/Motoman., estos archivos pueden transferirse al controlador mediante:
 
-### 5.1 Comunicación mediante exportación de programas
+-Unidad USB
 
-RoboDK permite generar trayectorias en su entorno de simulación y exportarlas como archivos de programa en el lenguaje **INFORM** (propio de Yaskawa), con extensión `.JBI`. Estos archivos pueden ser transferidos al controlador del robot mediante:
+-Tarjeta Compact Flash
 
-- Unidad de memoria USB
-- Tarjeta Compact Flash
-- Conexión FTP (si está habilitada en el controlador)
+-Conexión FTP (si está habilitada)
 
-Una vez transferido, el programa puede ser ejecutado desde el teach pendant como cualquier otro programa nativo del robot.
+El operador ejecuta el archivo desde el teach pendant, como cualquier otro programa.
 
-### 5.2 Comunicación directa en línea (Online Programming)
 
-Si el controlador del robot cuenta con soporte para comunicación externa, como el SDK **MotoCOM** o protocolos industriales como **Ethernet/IP**, es posible establecer una conexión en línea entre RoboDK y el manipulador. Este tipo de conexión permite:
 
-- Envío de trayectorias en tiempo real desde RoboDK
-- Control remoto para pruebas, ajustes y validaciones
-- Sincronización con periféricos o sensores externos
+2. Comunicación en línea (Online Programming)
+Si el controlador del robot está habilitado para comunicación externa (con MotoCOM SDK o Ethernet/IP), RoboDK puede establecer una conexión en tiempo real con el manipulador. permitiendo:
 
-Este método requiere una configuración previa en el controlador y puede requerir licencias adicionales.
+-Enviar comandos o trayectorias directamente desde el PC.
 
-### 5.3 Proceso general de control desde RoboDK
+-Realizar pruebas o ajustes sin necesidad de cargar programas manualmente.
 
-El flujo de trabajo típico de RoboDK para mover un manipulador industrial incluye los siguientes pasos:
+-Sincronizar acciones con otros dispositivos, sensores o sistemas industriales.
 
-1. **Simulación**: El usuario diseña la trayectoria en el entorno virtual de RoboDK.
-2. **Generación de código**: RoboDK convierte esa trayectoria en instrucciones en el lenguaje del robot (INFORM).
-3. **Transferencia**: El programa se transfiere al controlador, ya sea por exportación de archivo o comunicación en línea.
-4. **Ejecución**: El robot ejecuta el programa en el entorno físico, replicando los movimientos simulados.
 
-RoboDK no actúa como un controlador de bajo nivel. Su función principal es la de una herramienta de simulación, planificación y generación de código para facilitar la programación offline de robots industriales.
 ## 6. Análisis comparativo entre RoboDK y RobotStudio
 
 ### 6.1 Diferencias clave
