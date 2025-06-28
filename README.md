@@ -212,7 +212,7 @@ A continuación se presentan diferencias prácticas clave en cuanto a tareas com
 | Creación de movimientos               | MoveJ, MoveL, MoveC, programables en Python        | MoveAbsJ, MoveL, MoveC programables en RAPID       |
 | Interfaz gráfica                      | Intuitiva, compatible con múltiples marcas               | Más compleja y técnica, adaptada a ABB                   |
 | Simulación realista                   | Precisa, pero con menor fidelidad física que ABB         | Integración con Virtual Controller de ABB               |
-| Exportación de código                 | Multilenguaje: Yaskawa .JBI, KUKA .src, ABB `.mod`   | Solo RAPID                                               |
+| Exportación de código                 | Multilenguaje: Yaskawa .JBI, KUKA .src, ABB .mod   | Solo RAPID                                               |
 
 ---
 
