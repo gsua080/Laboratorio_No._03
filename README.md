@@ -172,8 +172,7 @@ El operador ejecuta el archivo desde el teach pendant, como cualquier otro progr
 
 
 2. Comunicación en línea 
-Si el controlador del robot está habilitado para comunicación externa (con MotoCOM SDK o Ethernet/IP),esto se hace mediante la opcion Remote y seleccionando la opcion Conectar robot, RoboDK puede establecer una conexión en tiempo real con el manipulador.
-
+Si el controlador del robot está habilitado para comunicación externa (con MotoCOM SDK o Ethernet/IP),esto se hace mediante la opcion Remote y seleccionando la opcion Conectar robot, RoboDK puede establecer una conexión en tiempo real con el manipulador. En el entorno de la sala CAM, la comunicación se establece mediante una conexión TCP/IP proporcionada por la red local de la universidad, lo que permite la interacción entre el computador y el robot.
 
 Esto permite:
 
