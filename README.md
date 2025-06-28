@@ -79,6 +79,10 @@ Aunque Home 1 es la posición predeterminada del fabricante y resulta clave para
 
 
 ## 3. Procedimiento para realizar el movimiento manual del manipulador Motoman
+<h4 align="center">Home 2</h4>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/73c5cbb6-a1d6-4c40-a41e-97baf3640397" alt="Home 2 - Imagen 1" height="250"/>
+</p>
 
 ### Movimiento manual por articulaciones
 
@@ -175,8 +179,9 @@ El operador ejecuta el archivo desde el teach pendant, como cualquier otro progr
 Si el controlador del robot está habilitado para comunicación externa (con MotoCOM SDK o Ethernet/IP),esto se hace mediante la opcion Remote y seleccionando la opcion Conectar robot, RoboDK puede establecer una conexión en tiempo real con el manipulador. En el entorno de la sala CAM, la comunicación se establece mediante una conexión TCP/IP proporcionada por la red local de la universidad, lo que permite la interacción entre el computador y el robot.
 <h4 align="center">Home 2</h4>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/73c5cbb6-a1d6-4c40-a41e-97baf3640397" alt="Home 2 - Imagen 1" height="250"/>
+  <img src="https://github.com/user-attachments/assets/94f0bd80-f44b-4399-a208-34e2c8f5cf55" alt="Home 2 - Imagen 1" height="250"/>
 </p>
+
 Esto permite:
 
 - Enviar comandos o trayectorias directamente desde el PC.
