@@ -238,4 +238,5 @@ A continuación se presentan diferencias prácticas clave en cuanto a tareas com
 ---
 
 ## Video
+[Ver Video en Drive](https://drive.google.com/file/d/1f4qS2BM-xLaWR3uSCjRaX0HH3Cs0f2rZ/view?usp=sharing)
 
