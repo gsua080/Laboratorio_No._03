@@ -80,7 +80,7 @@ Aunque Home 1 es la posición predeterminada del fabricante y resulta clave para
 
 ## 3. Procedimiento para realizar el movimiento manual del manipulador Motoman
 
-### Movimiento manual por articulaciones (modo Joint)
+### Movimiento manual por articulaciones
 
 1. Activar el modo Teach en el controlador principal.
 2. En el teach pendant, presionar el botón MODE y seleccionar la opción Joint.
@@ -90,69 +90,52 @@ Aunque Home 1 es la posición predeterminada del fabricante y resulta clave para
 
 
 
-### 3.2 Cambio a movimientos cartesianos
+### Cambio a movimientos cartesianos
 
-1. Presionar el botón `MODE` en el teach pendant.
-2. Seleccionar la opción **"XYZ"** o **"World"** para cambiar al **modo cartesiano**.
-3. Asegurarse de tener el servo habilitado.
-4. La referencia ahora será la del sistema cartesiano (coordenadas X, Y, Z con rotaciones Rx, Ry, Rz).
+1. Presionar el botón MODE en el teach pendant.
+3. Seleccionar la opción XYZ o World para cambiar al modo cartesiano.
+4. Asegurarse de tener el servo habilitado.
+5. La referencia ahora será la del sistema cartesiano 
 
 
+### Movimiento cartesiano: traslación y rotación
 
-### 3.3 Movimiento cartesiano: traslación y rotación
-
-#### Traslación (movimiento lineal)
-
+#### Traslación 
 - Utilizar las teclas de dirección etiquetadas como:
-  - `X+` / `X-` → Traslación hacia adelante/atrás en el eje X
-  - `Y+` / `Y-` → Traslación lateral derecha/izquierda en el eje Y
-  - `Z+` / `Z-` → Traslación hacia arriba/abajo en el eje Z
+  - X+ / X- -> Traslación hacia adelante/atrás en el eje X
+  - Y+ / Y- -> Traslación lateral derecha/izquierda en el eje Y
+  - Z+ / Z- -> Traslación hacia arriba/abajo en el eje Z
 
-#### Rotación (movimiento angular)
+#### Rotación 
 
 - Utilizar las teclas de dirección correspondientes a:
-  - `Rx+` / `Rx-` → Rotación sobre el eje X
-  - `Ry+` / `Ry-` → Rotación sobre el eje Y
-  - `Rz+` / `Rz-` → Rotación sobre el eje Z
+  - Rx+ / Rx- -> Rotación sobre el eje X
+  - Ry+ / Ry- -> Rotación sobre el eje Y
+  - Rz+ / Rz- -> Rotación sobre el eje Z
 
 
 ## 4. Velocidades de movimiento manual y comunicación con RoboDK
 
-### 4.1 Niveles de velocidad del Motoman para movimientos manuales
-
-El robot **Motoman MH6** permite configurar distintos niveles de velocidad para los movimientos manuales (en modo Teach), lo que permite controlar con precisión la velocidad de desplazamiento durante la programación o el ajuste de posiciones.
+### Niveles de velocidad del Motoman para movimientos manuales
 
 #### Niveles de velocidad
 
-- El sistema ofrece generalmente **4 niveles de velocidad preestablecidos** para el modo manual:
-  - **Velocidad 1**: Muy lenta (precisión máxima)
-  - **Velocidad 2**: Lenta
-  - **Velocidad 3**: Media
-  - **Velocidad 4**: Rápida (máxima permitida en modo manual)
+- El sistema ofrece generalmente 4 niveles de velocidad preestablecidos para el modo manual:
+  - Muy lenta 
+  - Lenta
+  - Media
+  - Rápida (permitida en modo manual)
 
->  La velocidad en modo Teach está limitada por razones de seguridad.
+La velocidad en modo Teach está limitada por razones de seguridad.
 
 #### Cambio entre niveles de velocidad
 
 - Para cambiar el nivel de velocidad:
-  1. Presionar el botón físico o función de pantalla `Speed` o `STEP`.
-  2. Usar las teclas de flecha o selección en pantalla para incrementar (`+`) o decrementar (`-`) el nivel.
-  3. Confirmar con `ENTER` si es necesario.
+  1. Presionar el botón físico o función de pantalla Speed o STEP.
+  2. Usar las teclas de flecha o selección en pantalla para incrementar (+) o decrementar (-) el nivel.
+  3. Confirmar con ENTER si es necesario.
 
 
-
-### 4.2 Aplicaciones principales de RoboDK
-
-[RoboDK](https://robodk.com) es una plataforma de simulación y programación offline de robots industriales. Se utiliza ampliamente en la industria y la academia para planificar y validar trayectorias sin necesidad de programar directamente en el robot.
-
-#### Principales aplicaciones de RoboDK
-
-- **Simulación de trayectorias** y procesos industriales (soldadura, corte, ensamblaje, pintura, etc.).
-- **Programación offline** (OLP) sin detener la producción.
-- **Generación automática de código** para múltiples marcas de robots (Yaskawa, ABB, KUKA, FANUC, etc.).
-- **Integración con CAD/CAM**, como SolidWorks, Inventor o Fusion 360.
-- **Estudios de alcance, colisiones y tiempo de ciclo**.
-- **Entrenamiento y docencia en robótica industrial**.
 
 ---
 
