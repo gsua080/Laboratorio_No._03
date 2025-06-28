@@ -199,7 +199,7 @@ Esto permite:
 
 ---
 
-### 6.2 Comparación práctica de funciones
+### Comparación de funciones
 
 A continuación se presentan diferencias prácticas clave en cuanto a tareas comunes como la creación de trayectorias, definición de objetivos, y configuración del entorno de trabajo:
 
@@ -209,14 +209,14 @@ A continuación se presentan diferencias prácticas clave en cuanto a tareas com
 | Definición de targets (objetivos)     | GUI interactiva o scripts en Python                      | Definición precisa en el entorno 3D ABB                  |
 | Configuración de herramientas (Tool)  | GUI o scripts Python para definir TCP                    | Definición y validación técnica en el entorno ABB        |
 | Configuración de frames (base)        | Asignación sencilla mediante referencia cartesiana       | Alineación con estaciones virtuales reales ABB           |
-| Creación de movimientos               | `MoveJ`, `MoveL`, `MoveC`, programables en Python        | `MoveAbsJ`, `MoveL`, `MoveC` programables en RAPID       |
+| Creación de movimientos               | MoveJ, MoveL, MoveC, programables en Python        | MoveAbsJ, MoveL, MoveC programables en RAPID       |
 | Interfaz gráfica                      | Intuitiva, compatible con múltiples marcas               | Más compleja y técnica, adaptada a ABB                   |
 | Simulación realista                   | Precisa, pero con menor fidelidad física que ABB         | Integración con Virtual Controller de ABB               |
-| Exportación de código                 | Multilenguaje: Yaskawa `.JBI`, KUKA `.src`, ABB `.mod`   | Solo RAPID                                               |
+| Exportación de código                 | Multilenguaje: Yaskawa .JBI, KUKA .src, ABB `.mod`   | Solo RAPID                                               |
 
 ---
 
-### 6.3 Usos específicos
+### Usos generales
 
 #### RoboDK
 
