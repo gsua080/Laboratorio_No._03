@@ -47,7 +47,7 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 | Configuración               | Fija, no editable                     | Editable y personalizable              |
 | Valores articulares         | Todos las articulaciones en 0         | Definidos por el usuario               |
 | Propósito principal         | Calibración y diagnóstico             | Operación y producción                 |
-| Acceso                      | Sistema predeterminado                | Mediante programación (`MOVJ HOME2`)   |
+| Acceso                      | Sistema predeterminado                | Mediante programación                  |
 
   
 
