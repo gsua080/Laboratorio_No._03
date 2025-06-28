@@ -47,9 +47,9 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 - Representa una postura segura y conocida del robot, con el brazo extendido o retraído, dependiendo del modelo.
 - Es ideal como punto de partida o retorno en procedimientos técnicos y de diagnóstico.
 
-![PHOTO-2025-06-26-14-22-34 2](https://github.com/user-attachments/assets/bdb6ba41-6711-4c51-8986-fc62d6c4a46e)
+<img src="https://github.com/user-attachments/assets/bdb6ba41-6711-4c51-8986-fc62d6c4a46e" alt="Home 1 - Imagen 1" width="350"/>
 
-![PHOTO-2025-06-26-14-22-34 3](https://github.com/user-attachments/assets/b1943b1a-a8e9-426d-9856-4e80f13911a1)
+<img src="https://github.com/user-attachments/assets/b1943b1a-a8e9-426d-9856-4e80f13911a1" alt="Home 1 - Imagen 2" width="350"/>
 
 ### 2.2 Home 2
 
@@ -59,9 +59,9 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 - Permite mayor flexibilidad en entornos industriales y puede adaptarse al diseño de la celda de trabajo.
 - Se accede mediante programación, por ejemplo:
 
-![PHOTO-2025-06-26-14-22-34](https://github.com/user-attachments/assets/65f7a10c-e22b-4dd8-83ad-3340dd79f1ff)
+<img src="https://github.com/user-attachments/assets/65f7a10c-e22b-4dd8-83ad-3340dd79f1ff" alt="Home 2 - Imagen 1" width="350"/>
 
-![PHOTO-2025-06-26-14-22-35](https://github.com/user-attachments/assets/72280dc0-ad2c-4c02-b569-d3f1f37af88a)
+<img src="https://github.com/user-attachments/assets/72280dc0-ad2c-4c02-b569-d3f1f37af88a" alt="Home 2 - Imagen 2" width="350"/>
 
 ### 2.3 Resumen comparativo
 
