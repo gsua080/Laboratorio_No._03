@@ -188,5 +188,39 @@ Cuando se utiliza RoboDK para mover un robot Motoman, el software realiza las si
 2. **Convierte la trayectoria en instrucciones de movimiento** específicas para el lenguaje del controlador Motoman (por ejemplo, `MOVJ`, `MOVL`, `MOVC` en formato `.JBI`).
 3. **Transfiere el programa** al robot mediante un medio de comunicación compatible.
 4. El robot **ejecuta el programa cargado**, realizando los movimientos planificados en el entorno real.
-.
+## 5. Comunicación de RoboDK con el manipulador Motoman
+
+La comunicación entre **RoboDK** y el robot **Motoman MH6** puede establecerse mediante distintos métodos, dependiendo del tipo de controlador disponible y las capacidades habilitadas. A continuación, se describen las principales formas de conexión.
+
+### 5.1 Comunicación mediante exportación de programas
+
+RoboDK permite generar trayectorias en su entorno de simulación y exportarlas como archivos de programa en el lenguaje **INFORM** (propio de Yaskawa), con extensión `.JBI`. Estos archivos pueden ser transferidos al controlador del robot mediante:
+
+- Unidad de memoria USB
+- Tarjeta Compact Flash
+- Conexión FTP (si está habilitada en el controlador)
+
+Una vez transferido, el programa puede ser ejecutado desde el teach pendant como cualquier otro programa nativo del robot.
+
+### 5.2 Comunicación directa en línea (Online Programming)
+
+Si el controlador del robot cuenta con soporte para comunicación externa, como el SDK **MotoCOM** o protocolos industriales como **Ethernet/IP**, es posible establecer una conexión en línea entre RoboDK y el manipulador. Este tipo de conexión permite:
+
+- Envío de trayectorias en tiempo real desde RoboDK
+- Control remoto para pruebas, ajustes y validaciones
+- Sincronización con periféricos o sensores externos
+
+Este método requiere una configuración previa en el controlador y puede requerir licencias adicionales.
+
+### 5.3 Proceso general de control desde RoboDK
+
+El flujo de trabajo típico de RoboDK para mover un manipulador industrial incluye los siguientes pasos:
+
+1. **Simulación**: El usuario diseña la trayectoria en el entorno virtual de RoboDK.
+2. **Generación de código**: RoboDK convierte esa trayectoria en instrucciones en el lenguaje del robot (INFORM).
+3. **Transferencia**: El programa se transfiere al controlador, ya sea por exportación de archivo o comunicación en línea.
+4. **Ejecución**: El robot ejecuta el programa en el entorno físico, replicando los movimientos simulados.
+
+RoboDK no actúa como un controlador de bajo nivel. Su función principal es la de una herramienta de simulación, planificación y generación de código para facilitar la programación offline de robots industriales.
+
 
