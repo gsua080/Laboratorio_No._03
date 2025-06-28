@@ -62,9 +62,7 @@ A continuación, se describe el procedimiento y las teclas necesarias para contr
 4. Utilizar las teclas de dirección etiquetadas como **`+` y `-`** junto al nombre de cada eje (`J1` a `J6`) para mover individualmente cada articulación.
 5. El movimiento se detendrá al soltar el botón o al deshabilitar el servo.
 
->  Este modo es útil para posicionar el robot en posturas específicas de mantenimiento, prueba o enseñanza básica.
 
----
 
 ### 3.2 Cambio a movimientos cartesianos
 
@@ -73,9 +71,7 @@ A continuación, se describe el procedimiento y las teclas necesarias para contr
 3. Asegurarse de tener el servo habilitado.
 4. La referencia ahora será la del sistema cartesiano (coordenadas X, Y, Z con rotaciones Rx, Ry, Rz).
 
-> En este modo, el robot se mueve en línea recta en el espacio, no por articulaciones.
 
----
 
 ### 3.3 Movimiento cartesiano: traslación y rotación
 
@@ -93,7 +89,6 @@ A continuación, se describe el procedimiento y las teclas necesarias para contr
   - `Ry+` / `Ry-` → Rotación sobre el eje Y
   - `Rz+` / `Rz-` → Rotación sobre el eje Z
 
->  La rotación mueve la herramienta del robot (TCP) alrededor del origen de coordenadas definido.
 
 ## 4. Velocidades de movimiento manual y comunicación con RoboDK
 
@@ -118,12 +113,7 @@ El robot **Motoman MH6** permite configurar distintos niveles de velocidad para 
   2. Usar las teclas de flecha o selección en pantalla para incrementar (`+`) o decrementar (`-`) el nivel.
   3. Confirmar con `ENTER` si es necesario.
 
-#### Identificación en pantalla
 
-- El nivel de velocidad actual se muestra normalmente en la **parte superior derecha o inferior del teach pendant** como un valor numérico (por ejemplo: `Speed: 25%`, `STEP: 3` o similar).
-- Algunos controladores también permiten visualizar la velocidad en porcentaje directamente en pantalla.
-
----
 
 ### 4.2 Aplicaciones principales de RoboDK
 
