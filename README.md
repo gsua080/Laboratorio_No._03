@@ -80,15 +80,13 @@ Aunque Home 1 es la posición predeterminada del fabricante y resulta clave para
 
 ## 3. Procedimiento para realizar el movimiento manual del manipulador Motoman
 
-A continuación, se describe el procedimiento y las teclas necesarias para controlar manualmente el manipulador **Motoman MH6** desde el **pendant de programación (teach pendant)**, tanto en modo articular como en modo cartesiano.
+### Movimiento manual por articulaciones (modo Joint)
 
-### 3.1 Movimiento manual por articulaciones (modo Joint)
-
-1. **Activar el modo Teach** en el controlador principal.
-2. En el teach pendant, presionar el botón `MODE` y seleccionar la opción **"Joint"**.
-3. Mantener presionado el botón de **habilitación del servo (Enable)** en el lateral del teach pendant.
-4. Utilizar las teclas de dirección etiquetadas como **`+` y `-`** junto al nombre de cada eje (`J1` a `J6`) para mover individualmente cada articulación.
-5. El movimiento se detendrá al soltar el botón o al deshabilitar el servo.
+1. Activar el modo Teach en el controlador principal.
+2. En el teach pendant, presionar el botón MODE y seleccionar la opción Joint.
+3. Mantener presionado el botón de habilitación del servo (Enable) en el lateral del teach pendant.
+4. Utilizar las teclas de dirección etiquetadas como + y - junto al nombre de cada eje (J1 a J6) para mover individualmente cada articulación.
+5. Para detener el movimiento se suelta el botón o al deshabilitar el servo.
 
 
 
