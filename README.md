@@ -191,11 +191,11 @@ Esto permite:
 | Característica              | RoboDK                                      | RobotStudio                                   |
 |----------------------------|----------------------------------------------|-----------------------------------------------|
 | Fabricante                 | Independiente                               | ABB Robotics                                  |
-| Compatibilidad             | Multimarca (ABB, KUKA, FANUC, Yaskawa, UR…) | Exclusivo para robots ABB                     |
+| Compatibilidad             | Multimarca (ABB, KUKA, FANUC, Yaskawa, UR , etc.) | Exclusivo para robots ABB                     |
 | Lenguaje                   | Python, exporta a múltiples formatos         | RAPID (lenguaje  de ABB)           |
 | Curva de aprendizaje       | Accesible para principiantes                 | Técnica, enfocada a usuarios ABB              |
 | CAD/CAM                    | Integración con Fusion 360, SolidWorks, etc. | Integración herramientas ABB y con Fusion 360, SolidWorks, etc.   |
-| Licenciamiento             | Versión gratuita limitada; versión de pago   | Licensia paga         |
+| Licenciamiento             | Versión gratuita limitada y versión de pago   | Licensia paga         |
 
 ---
 
@@ -206,9 +206,9 @@ A continuación se presentan diferencias prácticas clave en cuanto a tareas com
 | Funcionalidad                          | RoboDK                                                  | RobotStudio (ABB)                                       |
 |---------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
 | Creación de trayectorias              | Interfaz gráfica sencilla con listas de movimiento       | Paths estructurados y WorkObjects                       |
-| Definición de targets (objetivos)     | GUI interactiva o scripts en Python                      | Definición precisa en el entorno 3D ABB                  |
-| Configuración de herramientas (Tool)  | GUI o scripts Python para definir TCP                    | Definición y validación técnica en el entorno ABB        |
-| Configuración de frames (base)        | Asignación sencilla mediante referencia cartesiana       | Alineación con estaciones virtuales reales ABB           |
+| Definición de targets     | GUI interactiva o scripts en Python                      | Definición precisa en el entorno 3D ABB                  |
+| Configuración de herramientas | GUI o scripts Python para definir TCP                    | Definición y validación técnica en el entorno ABB        |
+| Configuración de frames     | Asignación sencilla mediante referencia cartesiana       | Alineación con estaciones virtuales reales ABB           |
 | Creación de movimientos               | MoveJ, MoveL, MoveC, programables en Python        | MoveAbsJ, MoveL, MoveC programables en RAPID       |
 | Interfaz gráfica                      | Intuitiva, compatible con múltiples marcas               | Más compleja y técnica, adaptada a ABB                   |
 | Simulación realista                   | Precisa, pero con menor fidelidad física que ABB         | Integración con Virtual Controller de ABB               |
@@ -216,7 +216,7 @@ A continuación se presentan diferencias prácticas clave en cuanto a tareas com
 
 ---
 
-### Usos generales
+### Aplicaciones
 
 #### RoboDK
 
@@ -238,5 +238,5 @@ A continuación se presentan diferencias prácticas clave en cuanto a tareas com
 
 ---
 
-
+## Video
 
