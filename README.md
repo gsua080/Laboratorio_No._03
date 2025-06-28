@@ -155,6 +155,7 @@ El nivel de velocidad seleccionado se muestra en la pantalla del teach pendant, 
 
 
 ### Comunicación entre el manipulador Motoman MH6 y RoboDK
+
 RoboDK puede comunicarse con el robot de dos formas principales, dependiendo de la infraestructura del controlador:
 
 1. Exportación de programas 
@@ -170,8 +171,11 @@ El operador ejecuta el archivo desde el teach pendant, como cualquier otro progr
 
 
 
-2. Comunicación en línea (Online Programming)
-Si el controlador del robot está habilitado para comunicación externa (con MotoCOM SDK o Ethernet/IP), RoboDK puede establecer una conexión en tiempo real con el manipulador. permitiendo:
+2. Comunicación en línea 
+Si el controlador del robot está habilitado para comunicación externa (con MotoCOM SDK o Ethernet/IP),esto se hace mediante la opcion Remote y seleccionando la opcion Conectar robot, RoboDK puede establecer una conexión en tiempo real con el manipulador.
+
+
+Esto permite:
 
 - Enviar comandos o trayectorias directamente desde el PC.
 
@@ -182,9 +186,7 @@ Si el controlador del robot está habilitado para comunicación externa (con Mot
 
 ## 6. Análisis comparativo entre RoboDK y RobotStudio
 
-### 6.1 Diferencias clave
-
-Las herramientas **RoboDK** y **RobotStudio** son ampliamente utilizadas para la simulación y programación offline de robots industriales, aunque presentan diferencias importantes en su enfoque, compatibilidad y lenguaje.
+### Diferencias clave
 
 | Característica              | RoboDK                                      | RobotStudio                                   |
 |----------------------------|----------------------------------------------|-----------------------------------------------|
@@ -236,14 +238,5 @@ A continuación se presentan diferencias prácticas clave en cuanto a tareas com
 
 ---
 
-### 6.4 Reflexión personal
-
-Estas herramientas representan dos aproximaciones distintas a la programación y simulación en robótica industrial:
-
-- **RoboDK** simboliza la **versatilidad** y la **accesibilidad**. Su enfoque multimarca y compatibilidad con Python lo hacen ideal para usuarios que buscan explorar distintos entornos robóticos, realizar simulaciones educativas o validar proyectos de automatización de forma rápida.
-
-- **RobotStudio** representa la **precisión técnica** y la **especialización**. Está orientado a usuarios que ya trabajan en entornos ABB o buscan replicar exactamente los procesos industriales de esa plataforma con fidelidad total al hardware.
-
-Ambas herramientas son fundamentales y complementarias. La elección entre una y otra depende del fabricante del robot, el tipo de aplicación, el entorno académico o industrial, y el nivel de profundidad requerido en la programación.
 
 
