@@ -141,18 +141,7 @@ El nivel de velocidad seleccionado se muestra en la pantalla del teach pendant, 
 
 ---
 
-### 4.3 Comunicación de RoboDK con el robot Motoman
 
-RoboDK se comunica con el robot Motoman mediante **exportación de código** o **conexión directa por protocolo**, dependiendo del modelo y licencia instalada.
-
-#### Métodos de conexión comunes
-
-1. **Exportación de programas en lenguaje INFORM (JBI)**:
-   - RoboDK genera archivos `.JBI` que se cargan en el controlador del Motoman mediante USB, FTP o tarjeta compact flash.
-
-2. **Conexión en línea mediante controlador Yaskawa (MotoCOM o Ethernet/IP)**:
-   - Requiere un controlador con funciones habilitadas para comunicación externa.
-   - Permite que RoboDK envíe comandos en tiempo real al robot.
 
 ---
 ## 5. Principales funcionalidades y comunicación de RoboDK con el manipulador Motoman
