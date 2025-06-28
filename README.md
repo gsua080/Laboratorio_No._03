@@ -33,6 +33,10 @@ Correo: gesuarezb@unal.edu.co
 | 4   | Soldadura por arco     | Montaje electrónico o mecánico    |
 | 5   | Pulido y desbarbado con herramientas abrasivas     |  Pulido o acabado superficial de piezas pequeñas   |
 | 6   | Aplicación de adhesivos o selladores     |  Aplicación de pintura o recubrimientos en espacios reducidos   |
+| Alcance  | 1422 mm     |  810 mm   |
+| Consumo de potencia | 1.5 kVA | 4.5 kVA|
+| Masa | 130 kg | 98 kg |
+| Protección IP |  Muñeca: IP67 , Cuerpo: IP54   |  Muñeca: IP67 , Cuerpo: IP30  | 
 
 ## 2. Descripción de las diferencias entre Home 1 y Home 2 del robot Motoman MH6
 
