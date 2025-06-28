@@ -25,7 +25,7 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 - Es la **posición de origen predeterminada de fábrica**.
 - Se utiliza como referencia para **calibración, mantenimiento y verificación de ejes**.
 - **No puede ser modificada** por el usuario.
-- En esta posición, los ejes del robot se ubican en una **configuración estándar definida por el fabricante**, que **no necesariamente corresponde a 0° en todos los ejes articulares**.
+- En esta posición, los ejes del robot se ubican en una **configuración estándar definida por el fabricante**, que **no necesariamente corresponde a 0° en todos los ejes articulare como lo evidenciamos en la imagen aunque se sue asumir valores ceracnos a 0**.
 - Representa una postura segura y conocida del robot, con el brazo extendido o retraído, dependiendo del modelo.
 - Es ideal como punto de partida o retorno en procedimientos técnicos y de diagnóstico.
 
