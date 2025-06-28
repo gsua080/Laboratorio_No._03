@@ -95,12 +95,5 @@ A continuación, se describe el procedimiento y las teclas necesarias para contr
 
 >  La rotación mueve la herramienta del robot (TCP) alrededor del origen de coordenadas definido.
 
----
-
-###  Notas de seguridad
-
-- Siempre verifique que no haya obstáculos en el área de trabajo antes de realizar movimientos manuales.
-- Active el **modo Teach Lock** si necesita prevenir movimientos no deseados.
-- Asegúrese de que el robot está en **modo servo ON** y sin alarmas activas.
 
 
