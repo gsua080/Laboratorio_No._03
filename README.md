@@ -33,6 +33,7 @@ Correo: gesuarezb@unal.edu.co
 | 4   | Soldadura por arco     | Montaje electrónico o mecánico    |
 | 5   | Pulido y desbarbado con herramientas abrasivas     |  Pulido o acabado superficial de piezas pequeñas   |
 | 6   | Aplicación de adhesivos o selladores     |  Aplicación de pintura o recubrimientos en espacios reducidos   |
+
 ## 2. Descripción de las diferencias entre Home 1 y Home 2 del robot Motoman MH6
 
 El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente utilizadas en programación y operación: `Home 1` y `Home 2`. Estas posiciones cumplen funciones distintas dentro del entorno de trabajo del robot. A continuación se describen sus principales diferencias:
@@ -46,6 +47,10 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 - Representa una postura segura y conocida del robot, con el brazo extendido o retraído, dependiendo del modelo.
 - Es ideal como punto de partida o retorno en procedimientos técnicos y de diagnóstico.
 
+![PHOTO-2025-06-26-14-22-34 2](https://github.com/user-attachments/assets/bdb6ba41-6711-4c51-8986-fc62d6c4a46e)
+
+![PHOTO-2025-06-26-14-22-34 3](https://github.com/user-attachments/assets/b1943b1a-a8e9-426d-9856-4e80f13911a1)
+
 ### 2.2 Home 2
 
 - Es una **posición configurada por el usuario**, adaptada a las necesidades específicas de la aplicación.
@@ -53,6 +58,10 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 - Puede ser modificada libremente desde el controlador del robot.
 - Permite mayor flexibilidad en entornos industriales y puede adaptarse al diseño de la celda de trabajo.
 - Se accede mediante programación, por ejemplo:
+
+![PHOTO-2025-06-26-14-22-34](https://github.com/user-attachments/assets/65f7a10c-e22b-4dd8-83ad-3340dd79f1ff)
+
+![PHOTO-2025-06-26-14-22-35](https://github.com/user-attachments/assets/72280dc0-ad2c-4c02-b569-d3f1f37af88a)
 
 ### 2.3 Resumen comparativo
 
@@ -168,5 +177,4 @@ Cuando se utiliza RoboDK para mover un robot Motoman, el software realiza las si
 3. **Transfiere el programa** al robot mediante un medio de comunicación compatible.
 4. El robot **ejecuta el programa cargado**, realizando los movimientos planificados en el entorno real.
 .
-
 
