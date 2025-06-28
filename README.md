@@ -37,6 +37,8 @@ Correo: gesuarezb@unal.edu.co
 | Consumo de potencia | 1.5 kVA | 4.5 kVA|
 | Masa | 130 kg | 98 kg |
 | Protección IP |  Muñeca: IP67 , Cuerpo: IP54   |  Muñeca: IP67 , Cuerpo: IP30  | 
+| Software de simulación | RobotStudio | RoboDK |
+| Repetibilidad | ± 0.08 mm | ± 0.03 mm |
 
 ## 2. Descripción de las diferencias entre Home 1 y Home 2 del robot Motoman MH6
 
