@@ -69,6 +69,8 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 </p>
 ### 2.3 Resumen comparativo
 
+<div align="center">
+
 | Característica              | Home 1                                        | Home 2                                |
 |-----------------------------|-----------------------------------------------|----------------------------------------|
 | Definición                  | Posición de fábrica                           | Posición definida por el usuario       |
@@ -76,6 +78,8 @@ El robot **Motoman MH6** dispone de dos posiciones de referencia comúnmente uti
 | Valores articulares         | Configuración estándar                        | Definidos por el usuario               |
 | Propósito principal         | Calibración y diagnóstico                     | Operación y producción                 |
 | Acceso                      | Sistema predeterminado                        | Mediante programación (`MOVJ HOME2`)   |
+
+</div>
 
 ## 3. Procedimiento para realizar el movimiento manual del manipulador Motoman
 
